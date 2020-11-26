@@ -4,15 +4,16 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void FixedUpdate()
     {
-        transform.Translate(Vector3.up * Time.deltaTime * 2f);
+        transform.Translate(Vector3.up * Time.deltaTime * 5f);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Platforms"))
+        {
+            Instantiate(PlatformManager.instanse.Platforms[Random.Range(0, 2)],new Vector2(0, transform.position.y + 20f), Quaternion.identity);
+        }
     }
 }
