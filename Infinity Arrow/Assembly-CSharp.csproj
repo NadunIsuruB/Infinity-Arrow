@@ -56,9 +56,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scirpts\Platform Controller\PlatformManager.cs" />
+    <Compile Include="Assets\Scirpts\Platform Controller\PlatformController.cs" />
     <Compile Include="Assets\Scirpts\Player Controller\PlayerController.cs" />
     <Compile Include="Assets\Scirpts\Cam controller\CamController.cs" />
-    <Compile Include="Assets\Scirpts\Platform Controller\PlatformController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
