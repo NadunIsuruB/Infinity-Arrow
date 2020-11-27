@@ -354,9 +354,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Platforms:
-  - {fileID: 2224878211226220777, guid: 89a08f7e910f4da47a23e725f7eae979, type: 3}
-  - {fileID: 2957739714609681047, guid: 8d3dae6a4dcd7dd4f927b74bb792c02f, type: 3}
   - {fileID: 3405249104367653395, guid: b70eefe2f6efcc44ab0edc8cb738df65, type: 3}
+  - {fileID: 2957739714609681047, guid: 8d3dae6a4dcd7dd4f927b74bb792c02f, type: 3}
+  - {fileID: 2224878211226220777, guid: 89a08f7e910f4da47a23e725f7eae979, type: 3}
 --- !u!4 &1566683494
 Transform:
   m_ObjectHideFlags: 0
