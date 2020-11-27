@@ -651,18 +651,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6532747254465737598, guid: 697a5eb7acc82fe438743e268e3d8036, type: 3}
-      propertyPath: m_BodyType
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6532747254465737598, guid: 697a5eb7acc82fe438743e268e3d8036, type: 3}
-      propertyPath: m_GravityScale
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6532747254465737598, guid: 697a5eb7acc82fe438743e268e3d8036, type: 3}
-      propertyPath: m_Constraints
-      value: 4
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 697a5eb7acc82fe438743e268e3d8036, type: 3}
 --- !u!1001 &8829418110913874004
@@ -672,18 +660,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3781961711698755655, guid: 233d679a52c08bc44994188e3625cfb5, type: 3}
-      propertyPath: m_ShapeTexture
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4852329839931501248, guid: 233d679a52c08bc44994188e3625cfb5, type: 3}
-      propertyPath: m_ShapeTexture
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 8751358135145439553, guid: 233d679a52c08bc44994188e3625cfb5, type: 3}
-      propertyPath: m_ShapeTexture
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 8829418111075281969, guid: 233d679a52c08bc44994188e3625cfb5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

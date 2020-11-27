@@ -368,7 +368,7 @@ ScriptsOnlyBuild:
     className: TMP_SpriteAnimator
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: fc23dd85ba3bc6be6d9c336dff10cd07
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerController
@@ -603,4 +603,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: E:/Unity/Infinity Arrow/Builds/Infinity Arrow DevBuild18.apk
+  playerPath: E:/Unity/Infinity Arrow/Builds/Infinity Arrow DevBuild20.apk
