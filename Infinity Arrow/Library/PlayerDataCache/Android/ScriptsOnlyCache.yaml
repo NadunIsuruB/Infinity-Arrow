@@ -603,4 +603,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: E:/Unity/Infinity Arrow/Builds/Infinity Arrow DevBuild17.apk
+  playerPath: E:/Unity/Infinity Arrow/Builds/Infinity Arrow DevBuild18.apk
