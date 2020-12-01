@@ -58,7 +58,10 @@
     <Compile Include="Assets\Scirpts\Platform Controller\PlatformManager.cs" />
     <Compile Include="Assets\Scirpts\Platform Controller\PlatformController.cs" />
     <Compile Include="Assets\Scirpts\Player Controller\PlayerController.cs" />
+    <Compile Include="Assets\Scirpts\Score Controller\ScoreManager.cs" />
     <Compile Include="Assets\Scirpts\Cam controller\CamController.cs" />
+    <Compile Include="Assets\Scirpts\UI\UIManager.cs" />
+    <Compile Include="Assets\Scirpts\InputHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
