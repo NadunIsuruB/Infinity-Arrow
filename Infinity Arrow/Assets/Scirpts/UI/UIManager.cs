@@ -5,18 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
-    public static UIManager instance;
-
-    private void Awake()
+    public void play()
     {
-        if (!instance)
-        {
-            instance = this;
-        }
+        SceneManager.LoadScene(1);
     }
 
     public void retry()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
+
 }

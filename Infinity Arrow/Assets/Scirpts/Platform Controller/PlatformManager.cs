@@ -9,17 +9,17 @@ public class PlatformManager : MonoBehaviour
     public List<GameObject> Platforms;
 
 
-    public static PlatformManager instanse;
+    public static PlatformManager instance;
     private void Awake()
     {
-        if (instanse)
+        if (!instance)
         {
-            Destroy(this.gameObject);
+            instance = this;
+            DontDestroyOnLoad(this);
         }
         else
         {
-            instanse = this;
-            DontDestroyOnLoad(this.gameObject);
+            Destroy(this);
         }
     }
 }

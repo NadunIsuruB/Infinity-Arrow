@@ -40,7 +40,7 @@ public class PlayerController : MonoBehaviour
             touchPos.z = 0f;
             direction = (touchPos - transform.position);
 
-            rb.velocity = new Vector2(direction.x * Time.deltaTime * 200f, 0f);
+            rb.velocity = new Vector2(direction.x * Time.deltaTime * 500f, 0f);
 
             if (touches[0].phase == TouchPhase.Ended)
             {
@@ -77,7 +77,7 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Platforms"))
         {
-            Instantiate(PlatformManager.instanse.Platforms[Random.Range(0, PlatformManager.instanse.Platforms.Count)], new Vector2(0, transform.position.y + 40f), Quaternion.identity);
+            Instantiate(PlatformManager.instance.Platforms[Random.Range(0, PlatformManager.instance.Platforms.Count)], new Vector2(0, transform.position.y + 40f), Quaternion.identity);
         }
 
         if (collision.gameObject.CompareTag("Enemy"))
